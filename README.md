@@ -6,6 +6,9 @@ Hi, I'm Macià Dalmau and welcome to my Video Player. This project has been made
 
 Basically a video player is an application that reads, processes and plays the content of a video file. Video Players commonly display standard controls icons known such as play, pause, fastforward, backforward and stop buttons. In addition, they generally have progress bars to locate the current position in the duration of the video file. Examples of known Video Players would be Windows Media Player, QuickTime or VLC.  
 
+<img src="https://user-images.githubusercontent.com/47743853/80913251-8ca26680-8d43-11ea-8c08-d7288284413c.jpg"  height="200"></img>
+
+
 ## Video Player in video games
 
 In video games, the Video Player don't need so many functionalities. They usually have the options of play, pause and skip the video. But why is important on video games? Mainly for two very important reasons:
@@ -14,9 +17,24 @@ The importance of cinematics in video games gives the audience an idea of what a
 
 Sometimes, the scene you want to make in your video game is too complex to be processed in real time or basically you just don't want your team of developers to spend time creating a cinematic. Then you will need a pre-rendered scene and you will need a video player to process this pre-rendered scene in your game.
 
+<img src="https://user-images.githubusercontent.com/47743853/80913284-d25f2f00-8d43-11ea-9ec9-821dae4aafa2.gif"  height="300"></img>
+
+
 ## Pre-rendered cutscenes vs Real time cutscenes
 
 In video games cutscenes can be classified in many ways, but when talking about video rendering, there are two different categories: pre-rendered and real time cutscenes. Pre-rendered cutscenes, as the name implies, are cutscenes that have been rendered before, and the game just plays the cutscene with his video player. On the other hand we have real time cutscenes use the game engine to generate a cutscene that is rendered while the game is playing.
+
+- Examples of Pre-rendered cutscenes:
+
+<img src="https://user-images.githubusercontent.com/47743853/80912589-43034d00-8d3e-11ea-906c-7b597fd0bd63.gif"  height="300"></img>
+
+<img src="https://user-images.githubusercontent.com/47743853/80912606-6c23dd80-8d3e-11ea-8232-d5d169e9d9a1.gif"  height="300"></img>
+
+- Examples of Real time cutscenes:
+
+<img src="https://user-images.githubusercontent.com/47743853/80912635-99708b80-8d3e-11ea-9c71-8dc313398093.gif"  height="300"></img>
+
+<img src="https://user-images.githubusercontent.com/47743853/80912643-ab522e80-8d3e-11ea-876b-3893c20fef2b.gif"  height="300"></img>
 
 ## Video file
 
