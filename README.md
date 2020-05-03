@@ -1,4 +1,4 @@
-# Video-Player-Research
+# Video Player Research
 
 Hi, I'm Macià Dalmau and welcome to my Video Player. This project has been made for the personal research assignment of the subject Project 2 in the Video Game design and development Degree in CITM, UPC.
 
