@@ -1,6 +1,6 @@
 # Video Player Research
 
-Hi, I'm Macià Dalmau and welcome to my Video Player. This project has been made for the personal research assignment of the subject Project 2 in the Video Game design and development Degree in CITM, UPC.
+Hi, I'm Macià Dalmau and welcome to my Video Player. This project has been made through a library called theora to play encoded videos as SDL textures. Also, this work is for a personal research assignment of the subject Project 2 in the Video Game design and development Degree in CITM, UPC.
 
 ## What's a Video Player?
 
@@ -13,7 +13,7 @@ Basically a video player is an application that reads, processes and plays the c
 
 In video games, the Video Player don't need so many functionalities. They usually have the options of play, pause and skip the video. But why is important on video games? Mainly for two very important reasons:
 
-The importance of cinematics in video games gives the audience an idea of what a video game will be and gives animators the opportunity to attract potential customers. The cinema and animated scenes in the game offer even more creativity and content in an already exciting form of entertainment. The use of short movies in games, regardless of the type of game, increases the value and provides a method of engaging the player even more than before. Also, cinematics are a cool way to tell the story.
+The importance of cinematics in video games gives the audience an idea of what a video game will be and gives animators the opportunity to attract potential customers. The cinema and animated scenes in the game offer even more creativity and content in an already exciting form of entertainment. The use of short movies in games, regardless of the type of game, increases the value and provides a method of engaging the player even more than before. Also, cinematics are a cool way to introduce the game or tell the story.
 
 Sometimes, the scene you want to make in your video game is too complex to be processed in real time or basically you just don't want your team of developers to spend time creating a cinematic. Then you will need a pre-rendered scene and you will need a video player to process this pre-rendered scene in your game.
 
@@ -49,7 +49,7 @@ The container format is just a way of packing the audio and video data in a sing
 
 ## Codec
 
-A codec is a device or program which encodes or decodes a digital data stream. A coder encodes a data stream, signal transmission, or storage, possibly in encrypted form, and the decoder function reverses the encoding for playback or editing. Codecs are specially used in videoconferencing, streaming media and video editing applications. 
+A codec is a device or program which encodes or decodes a digital data stream. A coder encodes a data stream, signal transmission, or storage, possibly in encrypted form, and the decoder function reverses the encoding for playback or editing. Codecs are specially used in videoconferencing, streaming media and video editing applications. We need to do this because video and music files are really big, which makes them hard to transfer and store.
 
 
 ## Codec ecosystem and alternatives
@@ -58,7 +58,7 @@ So if you want to play some video in your game you have some alternatives. First
 
 You have to pick one of the existing alternatives and do the best you can with it. These are the main options you have:
 
-### Option 1: Bink
+#### Option 1: Bink
 
 Bink from RAD game tools is as close as you can get to a de facto standard in the games industry, being used in more than 5800 games on 14 different platforms.
 
@@ -66,7 +66,7 @@ The main drawback of Bink is the pricing. At $ 8500 per platform per game, which
 
 People who want to play a lot of video in CPU taxing situations can still choose to integrate Bink. For them, the price and effort will be worth it.
 
-### Option 2: Platform especific
+#### Option 2: Platform especific
 
 Another approach to video playing is to not develop a platform-independent library but instead use the video playing capabilities inherent in each platform. For example, Windows has Windows Media Foundation, MacOS has QuickTime, etc.
 
@@ -76,7 +76,7 @@ But going platform specific also has a lot of drawbacks. If you target many plat
 
 Furthermore, it may be tricky to support the same capabilities on all different platforms.
 
-### Option 3: H.264
+#### Option 3: H.264
 
 H.264 is used in Blu-ray players, video cameras, on iTunes, YouTube, etc. If you want a codec with good tool support and high quality, H.264 is the best choice.
 
@@ -84,11 +84,12 @@ However, H.264 is covered by patents. Patents that need to be licensed if you wa
 
 The H.264 patents are managed by an entity known as MPEG LA. They have gathered all the patents that they believe pertain to H.264 in “patent pool” that you can license all at once, with a single agreement.
 
-### Option 4: VP8 (WebM)
+#### Option 4: VP8 (WebM)
 
 VP8 is a “free” video codec owned by Google. It is covered by patents, but Google has granted free use of those patents and also provides a BSD licensed library libvpx for encoding and decoding video files. The format is also endorsed by the Free Software Foundation.
 
 It is generally acknowledged that when it comes to quality, VP8 is not quite as good as H.264, though the differences are not enormous. So you are trading some visual quality for the convenience of a license free format.
 
+## Code Structure
 
 
