@@ -92,9 +92,10 @@ It is generally acknowledged that when it comes to quality, VP8 is not quite as 
 
 ## Implementation in code
 
+But for this research we will use Theora codec cause is a free and open video compression format and it has a very simple library for SDL. Like all our multimedia technology it can be used to distribute film and video online and on disc without the licensing and royalty fees or vendor lock-in associated with other formats.
+
 We will use a library called TheoraPlay to play encoded videos as SDL textures. TheoraPlay is a library to make decoding of Ogg Theora videos easier. Free to use and patent unencumbered
 http://icculus.org/theoraplay/
-
 
 <img src="https://user-images.githubusercontent.com/47743853/80931072-e5134b80-8db7-11ea-8c35-a654cc2dc23c.png"  height="300">
 
