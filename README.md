@@ -90,7 +90,7 @@ VP8 is a “free” video codec owned by Google. It is covered by patents, but G
 
 It is generally acknowledged that when it comes to quality, VP8 is not quite as good as H.264, though the differences are not enormous. So you are trading some visual quality for the convenience of a license free format.
 
-## Code Structure
+## Implementation in code
 
 We will use a library called TheoraPlay to play encoded videos as SDL textures. TheoraPlay is a library to make decoding of Ogg Theora videos easier. Free to use and patent unencumbered
 http://icculus.org/theoraplay/
@@ -122,4 +122,23 @@ The last thing to do is pass the path and the renderer to the Load() function an
 
 
 
-## Code Structure
+## Homework
+
+- Implement a Video Player through TheoraPlay on your video game
+
+- Add more functionalities to your Video Player. For example the possibility of skipping the video or making a loop.
+
+
+## Sources
+
+https://www.gamasutra.com/view/news/170671/Indepth_Playing_with_video.php
+https://ca.wikipedia.org/wiki/Theora
+https://en.wikipedia.org/wiki/Video_file_format
+https://blog.filestack.com/thoughts-and-knowledge/complete-list-audio-video-file-formats/
+https://theora.org/doc/
+
+The code in this research is based off: 
+https://glusoft.com/tutorials/sdl2/playing-theora-video
+https://github.com/xiph/theora/blob/master/examples/player_example.c
+
+
