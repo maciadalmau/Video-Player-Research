@@ -132,9 +132,13 @@ The last thing to do is pass the path and the renderer to the Load() function an
 ## Sources
 
 https://www.gamasutra.com/view/news/170671/Indepth_Playing_with_video.php
+
 https://ca.wikipedia.org/wiki/Theora
+
 https://en.wikipedia.org/wiki/Video_file_format
+
 https://blog.filestack.com/thoughts-and-knowledge/complete-list-audio-video-file-formats/
+
 https://theora.org/doc/
 
 The code in this research is based off: 
