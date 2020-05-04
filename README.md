@@ -92,4 +92,34 @@ It is generally acknowledged that when it comes to quality, VP8 is not quite as 
 
 ## Code Structure
 
+We will use a library called TheoraPlay to play encoded videos as SDL textures. TheoraPlay is a library to make decoding of Ogg Theora videos easier. Free to use and patent unencumbered
+http://icculus.org/theoraplay/
 
+
+<img src="https://user-images.githubusercontent.com/47743853/80931072-e5134b80-8db7-11ea-8c35-a654cc2dc23c.png"  height="300"></img>
+
+### TODO 1 
+Decode the format. To do that we use THEORAPLAY_Decoder and THEORAPLAY_startDecodeFile();
+
+The first parameter is the path of the file you want to decode.
+The second parameter is the number of frames.
+The third parameters is the format to decode: THEORAPLAY_VIDFMT_IYUV
+
+### TODO 2 
+After that we need to create a video and audio buffer and fill them with THEORAPLAY_getAudio and THEORAPLAY_getVideo. 
+
+
+### TODO 3
+Play video frames when it's time. Each frame need to be rendered during a certain amount of time, the time is specified in video->playms. If the time elapsed is greater than this we go to the next frame.
+
+
+### TODO 4
+Just free everything the texture, video, audio and decoder. Use THEORAPLAY_freeVideo(), THEORAPLAY_freeAudio() and THEORAPLAY_stopDecode.
+
+
+### TODO 5
+The last thing to do is pass the path and the renderer to the Load() function and save it to my_video variable.
+
+
+
+## Code Structure
