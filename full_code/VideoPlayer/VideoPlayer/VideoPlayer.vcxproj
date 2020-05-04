@@ -59,7 +59,7 @@
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>libogg.lib;libtheora.lib;libvorbis.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\macia\Desktop\full_code\VideoPlayer\VideoPlayer\vorbis;C:\Users\macia\Desktop\full_code\VideoPlayer\VideoPlayer\theora;C:\Users\macia\Desktop\full_code\VideoPlayer\VideoPlayer\ogg;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
